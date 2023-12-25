@@ -3,12 +3,12 @@ import {React} from 'react'
 import Login from "./Components/Login";
 import Home from "./Components/Home";
 import { ToastContainer } from "react-toastify";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouterProvider,createHashRouter } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/login",
     element: <div>
