@@ -1,7 +1,7 @@
 {
   "homepage": "https://salehkhatri.github.io/BWI-Store",
   "name": "bwi-assignment",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
